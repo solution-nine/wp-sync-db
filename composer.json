@@ -1,12 +1,20 @@
 {
-  "name": "wp-sync-db/wp-sync-db",
+  "name": "pixelstudio/wp-sync-db",
+  "description": "WordPress plugin to sync database between different installs",
+  "keywords": ["wordpress", "plugin", "database", "sync"],
   "type": "wordpress-plugin",
-  "homepage": "https://github.com/wp-sync-db/wp-sync-db",
+  "homepage": "https://github.com/hrsetyono/wp-sync-db/",
+  "authors": [
+    {
+      "name": "Pixel Studio",
+      "email": "info@pixelstudio.id",
+      "homepage": "https://pixelstudio.id"
+    }
+  ],
   "license": "GPL-2.0",
-  "description": "WP Sync DB eliminates the manual work of migrating a WP database.",
-  "keywords": ["plugin","wordpress","wp-sync-db","db"],
   "require": {
-    "composer/installers": "~1.0.6"
+    "php": ">=7.0.0",
+    "composer/installers": ">=1.6.0"
   },
   "scripts": {
     "test": "./test.sh"
