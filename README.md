@@ -53,7 +53,7 @@ WP Sync DB exports your database as a MySQL data dump (much like phpMyAdmin), do
 
 - **Sync Media Libraries Between Installations**
 
-  Using the optional [WP Sync DB Media Files](https://github.com/wp-sync-db/wp-sync-db-media-files) addon, you can have media files synced between installs too.
+  Using the optional [WP Sync Media](https://github.com/hrsetyono/wp-sync-media) addon, you can have media files synced between installs too.
 
 ## How to Use
 
@@ -76,4 +76,4 @@ The guide below assume you're using it to sync online db with local one.
 | Feature Walkthrough | A brief walkthrough of the WP Sync DB plugin showing all of the different options and explaining them. | [Youtube](https://www.youtube.com/watch?v=u7jFkwwfeJc) |
 | Pulling Live Data Into Your Local Development Environment | This screencast demonstrates how you can pull data from a remote, live WordPress install and update the data in your local development environment. | [Youtube](http://www.youtube.com/watch?v=IFdHIpf6jjc) |
 | Pushing Local Development Data to a Staging Environment | This screencast demonstrates how you can push a local WordPress database you've been using for development to a staging environment. | [Youtube](http://www.youtube.com/watch?v=FjTzNqAlQE0) |
-| Media Files Addon Demo | A short demo of how the [Media Files addon](https://github.com/wp-sync-db/wp-sync-db-media-files) allows you to sync up your WordPress Media Libraries. | [Youtube](http://www.youtube.com/watch?v=0aR8-jC2XXM) |
+| Media Files Addon Demo | A short demo of how the [Media Files addon](https://github.com/hrsetyono/wp-sync-media) allows you to sync up your WordPress Media Libraries. | [Youtube](http://www.youtube.com/watch?v=0aR8-jC2XXM) |
