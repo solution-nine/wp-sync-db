@@ -5,6 +5,7 @@ Description: Sync database between different installs.
 Author: Pixel Studio
 Version: 1.6
 Author URI: https://pixelstudio.id
+Plugin URI: http://github.com/hrsetyono/wp-sync-db
 Network: True
 */
 
