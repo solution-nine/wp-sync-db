@@ -24,7 +24,7 @@ class WPSDB_Base {
 		$this->settings = get_option( 'wpsdb_settings' );
 
 		$this->addons = array(
-			'wp-sync-media/wp-sync-media.php' => array(
+			'wp-sync-db-media-files/wp-sync-db-media-files.php' => array(
 				'name'				=> 'Media Files',
 				'required_version'	=> '1.1.5',
 			),
