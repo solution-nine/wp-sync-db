@@ -53,7 +53,7 @@ WP Sync DB exports your database as a MySQL data dump (much like phpMyAdmin), do
 
 - **Sync Media Libraries Between Installations**
 
-  Using the optional [WP Sync Media](https://github.com/hrsetyono/wp-sync-media) addon, you can have media files synced between installs too.
+  Using the optional [WP Sync DB Media Files](https://github.com/hrsetyono/wp-sync-db-media-files) addon, you can have media files synced between installs too.
 
 ## How to Use
 
