@@ -3,14 +3,16 @@
 Plugin Name: WP Sync DB
 Description: Sync database between different installs.
 Author: Pixel Studio
-Version: 1.6
+Version: 1.7
 Author URI: https://pixelstudio.id
 Plugin URI: http://github.com/hrsetyono/wp-sync-db
 Network: True
 */
 
-$GLOBALS['wpsdb_meta']['wp-sync-db']['version'] = '1.6';
+$GLOBALS['wpsdb_meta']['wp-sync-db']['version'] = '1.7';
 $GLOBALS['wpsdb_meta']['wp-sync-db']['folder'] = basename( plugin_dir_path( __FILE__ ) );
+
+define( 'WPSDB_ROOT', plugin_dir_url(__FILE__) );
 
 // Define the directory seperator if it isn't already
 if( !defined( 'DS' ) ) {
@@ -44,3 +46,7 @@ function wp_sync_db_init() {
 }
 
 add_action( 'init', 'wp_sync_db_init' );
+
+
+require_once 'module-cli/_load.php';
+require_once 'module-media-files/_load.php';
