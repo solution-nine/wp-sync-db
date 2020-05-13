@@ -1230,7 +1230,8 @@ class WPSDB extends WPSDB_Base {
     );
     $return = array();
     foreach( $results as $results ) {
-      $return[$results['table_name']] = ( $results['TABLE_ROWS'] == 0 ? 1 : $results['TABLE_ROWS'] );
+	  $table_name = $results['table_name'] ?? $results['TABLE_NAME'];
+      $return[$table_name] = ( $results['TABLE_ROWS'] == 0 ? 1 : $results['TABLE_ROWS'] );
     }
     return $return;
   }
