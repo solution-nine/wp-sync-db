@@ -3,7 +3,7 @@
 Plugin Name: WP Sync DB
 Description: Sync database between different installs.
 Author: Pixel Studio
-Version: 1.7
+Version: 1.7.1
 Author URI: https://pixelstudio.id
 Plugin URI: http://github.com/hrsetyono/wp-sync-db
 Network: True
