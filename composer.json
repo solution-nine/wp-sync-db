@@ -1,5 +1,5 @@
 {
-  "name": "pixelstudio/wp-sync-db",
+  "name": "solution-nine/wp-sync-db",
   "description": "WordPress plugin to sync database between different installs",
   "keywords": ["wordpress", "plugin", "database", "sync"],
   "type": "wordpress-plugin",
